@@ -138,5 +138,6 @@ class Route {
 
     }
   }
+  Route::add('/transfers', ['BankAPI\TransfersController', 'handleRequest'], 'POST');
 
 }
